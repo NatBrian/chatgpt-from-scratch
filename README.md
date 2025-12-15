@@ -31,23 +31,24 @@ This resource is intended for software engineers, data scientists, and researche
 
 ## Notebook Structure
 
-The `nanochat_zero_to_hero.ipynb` notebook follows a progressive structure:
+The `chatgpt_zero_to_hero.ipynb` notebook follows a progressive structure:
 
-1.  **Baseline Language Model:** Implementing a simple Bigram model to establish a performance baseline.
-2.  **Data Processing:** Building the BPE tokenizer pipeline.
-3.  **Attention Mechanisms:** Deriving self-attention mathematically and implementing it efficiently.
-4.  **Architectural Upgrades:** Replacing standard Transformer components with Llama-style improvements (RMSNorm, RoPE, SwiGLU).
-5.  **Model Assembly:** Composing the full GPT architecture (~30M parameters).
-6.  **Model Training:** Training on the `FineWeb-Edu` dataset using a T4 GPU.
-7.  **Inference:** Implementing the generation loop and chat interface.
-8.  **Alignment (RLHF):** A conceptual introduction to aligning model outputs with human intent.
+1.  **Stage 1: The Simplest Language Model (Bigram):** Establishing a baseline with a simple probabilistic model.
+2.  **Stage 2: Tokenization:** Implementing Byte Pair Encoding (BPE) from scratch.
+3.  **Stage 3: Attention (The Heart of Transformers):** Deriving self-attention mathematically and implementing it efficiently.
+4.  **Stage 4: Modern Components (Llama 3):** Upgrading the architecture with RMSNorm, RoPE, and SwiGLU.
+5.  **Stage 5: Assembling the Full GPT Model:** Composing the full architecture (~30M parameters).
+6.  **Stage 6: Training:** Training on the `FineWeb-Edu` dataset using a T4 GPU.
+7.  **Stage 7: Inference & Chat:** Implementing the generation loop and chat interface.
+8.  **Stage 8: Instruction Fine-Tuning (SFT):** Teaching the model to follow instructions.
+9.  **Stage 9: Alignment (RLHF & DPO):** Aligning model outputs with human intent using Direct Preference Optimization.
 
 ## Usage Instructions
 
 This project is optimized for the Google Colab Free Tier.
 
 ### 1. Environment Setup
-Open the notebook in Google Colab by clicking the badge above or uploading `nanochat_zero_to_hero.ipynb` to your Google Drive.
+Open the notebook in Google Colab by clicking the badge above or uploading `chatgpt_zero_to_hero.ipynb` to your Google Drive.
 
 ### 2. Hardware Acceleration
 Ensure a GPU runtime is selected to enable efficient training:
