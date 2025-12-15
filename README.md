@@ -71,9 +71,6 @@ This project is inspired by the educational materials of **Andrej Karpathy**, sp
 *   ["Let's build GPT: from scratch, in code, spelled out"](https://www.youtube.com/watch?v=kCc8FmEb1nY)
 *   [nanoGPT Repository](https://github.com/karpathy/nanoGPT)
 
-**Distinction from nanoGPT:**
-While `nanoGPT` serves as a lightweight training repository for standard GPT-2 architectures, this project is a pedagogical notebook that updates the architecture to reflect modern standards (Llama 3), specifically by substituting LayerNorm, ReLU, and absolute embeddings with RMSNorm, SwiGLU, and RoPE.
-
 ## Future Directions
 
 Upon completion, learners are encouraged to:
